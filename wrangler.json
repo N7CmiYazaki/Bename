@@ -1,19 +1,14 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "project-name",
-  "main": "src/index.ts",
-  "compatibility_date": "2024-05-14",
-  "compatibility_flags": ["nodejs_compat"],
-  "vars": {
-    "KEY": "VALUE"
-  },
+  "name" : "HP",
+  "main" : "src/index.tsx",
+  "compatibility_date": "2024-01-01",
   "kv_namespaces": [
     {
-      "binding": "MY_KV",
-      "id": "ID_HERE"
+      "binding": "content_management",
+      "id": ""
     }
   ],
-  "observability": {
-    "enabled": true
-  }
+  "": [
+
+  ]
 }
