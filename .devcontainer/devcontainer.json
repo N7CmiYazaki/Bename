@@ -1,0 +1,4 @@
+{
+  "name": "OCI Development Environment",
+  "postCreateCommand": "pip install oci-cli && mkdir -p ~/.oci && echo \"$OCI_CONFIG_CONTENT\" > ~/.oci/config && echo \"$OCI_KEY_CONTENT\" > ~/.oci/oci_api_key.pem && chmod 600 ~/.oci/oci_api_key.pem"
+}
